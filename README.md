@@ -21,6 +21,8 @@
 
 The sign accepts animated gifs in the resolution 64x32 (widescreen) where the actual bottom of the display is to the right edge.
 Example: (4k.gif)
+   
+![4k.gif](final-gifs/4k.gif)
 
 Limitations: 
 * A maximum of about 4000 frames seems to work, if your animation is longer, simply split it up into separate gifs, like `part1.gif`, `part2.gif` and so on...
