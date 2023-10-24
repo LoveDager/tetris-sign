@@ -51,6 +51,8 @@ make led-image-viewer
 
 ### 5. Transfer all your gifs to the pi and save them to the `~/rpi-rgb-led-matrix/utils` folder (same as "led-image-viewer")
 
+All the tetris files I've used are in the `final-gifs` folder
+
 ### 6. Create empty streamfiles for each of your gifs and give the script permission
 Let's say you have the files `1.gif` and `2.gif`. Then you need to create `1.stream` and `2.stream` like this:
 
