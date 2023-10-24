@@ -1,20 +1,20 @@
 # LED Matrix Tetris (Gif Player)
 
-Components:
-* Raspberry Pi Zero
-* 64x32 LED Matrix
-* Adafruit RGB Matrix Bonnet for Raspberry Pi
+**Components:**
+* Raspberry Pi Zero: https://www.raspberrypi.com/products/raspberry-pi-zero/
+* 64x32 LED Matrix: https://www.adafruit.com/product/2278
+* Adafruit RGB Matrix Bonnet for Raspberry Pi: https://www.adafruit.com/product/3211
 
 
-To get the matrix up and running there are two main parts:
+**To get the matrix up and running there are two main parts:**
 1. Prepare your content, and
 2. Getting the sign up and running
 
-There are also some Assets provided in `assets/`:
 
-1. The font `5x5.ttf` which is a 5 pixel tall font and looks great on the LED matrix
-2. The game-over.psd which is a game over screen used in the tetris example
-3. `tetris-game`: A small node.js server for generatinng tetris images and saving them as pngs, based on this tetris game https://mrcoles.com/tetris/ and this png-to-gif saver https://macr.ae/article/canvas-to-gif
+**There are also some Assets provided in `assets/`:**
+1. `5x5.ttf`: which is a 5 pixel tall font and looks great on the LED matrix
+2. `game-over.psd`: which is a game over screen used in the tetris example
+3. `tetris-game`: A small node.js server for generatinng tetris images and saving them as pngs, based on [this tetris game](https://mrcoles.com/tetris/) and [this png-to-gif saver](https://macr.ae/article/canvas-to-gif)
 4. `make-frames-into-gif.sh`: A short script using ffmpeg to make separate PNGs into a GIF for the sign
 
 ## Instructions to prepare your content
@@ -22,7 +22,7 @@ There are also some Assets provided in `assets/`:
 The sign accepts animated gifs in the resolution 64x32 (widescreen) where the actual bottom of the display is to the right edge.
 Example: (4k.gif)
 
-Other limitations: 
+Limitations: 
 * A maximum of about 4000 frames seems to work, if your animation is longer, simply split it up into separate gifs, like `part1.gif`, `part2.gif` and so on...
 
 ## Instructions to get your sign up and running
@@ -94,7 +94,7 @@ Add:
 
 # Other links
 LINKS:
-https://mrcoles.com/tetris/
-https://macr.ae/article/canvas-to-gif
-https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/utils
-https://learn.adafruit.com/adafruit-rgb-matrix-bonnet-for-raspberry-pi/driving-matrices
+* https://mrcoles.com/tetris/
+* https://macr.ae/article/canvas-to-gif
+* https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/utils
+* https://learn.adafruit.com/adafruit-rgb-matrix-bonnet-for-raspberry-pi/driving-matrices
